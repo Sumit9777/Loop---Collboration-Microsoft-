@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+##**Set-Up Environment variable**
+``` NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+``` CLERK_SECRET_KEY
+``` NEXT_PUBLIC_CLERK_SIGN_IN_URL
+
 ## Getting Started
 
 First, run the development server:
