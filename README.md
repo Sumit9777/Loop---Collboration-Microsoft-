@@ -1,9 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##**Set-Up Environment variable**
-``` NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-``` CLERK_SECRET_KEY
-``` NEXT_PUBLIC_CLERK_SIGN_IN_URL
+### Setup .env file
+
+```js
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=....
+CLERK_SECRET_KEY=..
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_FIREBASE_API_KEY =...
+
+NEXT_PUBLIC_MAX_FILE_COUNT=..
+
+NEXT_PUBLIC_LIVEBLOCK_PK=....
+
+LIVEBLOCK_SK="sk_prod_xxxxxxxxxxxxxxxxxxxxxxxx"
+
+NEXT_PUBLIC_GEMINI_API_KEY=....
+```
+
 
 ## Getting Started
 
